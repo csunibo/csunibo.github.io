@@ -1,202 +1,246 @@
 <!DOCTYPE html>
 <html lang="it">
-
-<head>
-  <!-- 
+  <head>
+    <!-- 
         If for some reason you are reading the code and insulting me for this trash,
         just keep in mind I made this on saturday night while drinking beer and studing
         statistics. Peace ^.^ @takenX10
     -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>csunibo</title>
-  <style>
-    :root {
-      --b: #fbf1c7;
-      --b2: #bdae93;
-      --f: #282828;
-      --d: #d65d0e;
-    }
-
-    @media (prefers-color-scheme: dark) {
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>csunibo</title>
+    <style>
       :root {
-        --b: #282828;
-        --b2: #7c6f64;
-        --f: #fbf1c7;
-        --d: #fe8019;
+        --b: #fbf1c7;
+        --b2: #bdae93;
+        --f: #282828;
+        --d: #d65d0e;
       }
-    }
 
-    @media (max-width: 880px) {
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --b: #282828;
+          --b2: #7c6f64;
+          --f: #fbf1c7;
+          --d: #fe8019;
+        }
+      }
+
+      @media (max-width: 880px) {
+        body {
+          line-height: 1.5rem;
+        }
+
+        a {
+          width: 100vw !important;
+        }
+
+        .anno > a {
+          width: 100%;
+          margin: 0.5rem !important;
+          padding: 1rem !important;
+        }
+      }
+
       body {
-        line-height: 1.5rem;
+        color: var(--f);
+        background: var(--b);
+        font-size: 16px;
+        text-align: center;
+        font-family: monospace;
+        margin: 0;
+      }
+
+      h1 {
+        padding-top: 5vh;
+        font-size: 42px;
+      }
+
+      hr {
+        width: 100%;
+      }
+
+      b {
+        color: var(--d);
       }
 
       a {
-        width: 100vw !important;
+        color: inherit;
+        transition: 0.2s;
       }
 
-      .anno>a {
+      a:hover {
+        scale: 1.05;
+        background-color: var(--d);
+        color: var(--f) !important;
+      }
+
+      .disclaimer {
+        background-color: var(--b2);
+        margin: 2%;
+        padding: 1%;
+        width: fit-content;
+      }
+
+      .link-utili > a {
+        color: var(--d);
+        margin: 0 1%;
+      }
+
+      .anno {
+        margin: 2%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .anno > h2 {
+        text-align: left;
         width: 100%;
-        margin: 0.5rem !important;
-        padding: 1rem !important;
       }
-    }
 
-    body {
-      color: var(--f);
-      background: var(--b);
-      font-size: 16px;
-      text-align: center;
-      font-family: monospace;
-      margin: 0;
-    }
+      .anno > a {
+        margin: 1%;
+        width: fit-content;
+        color: var(--f);
+        padding: 1%;
+        border: solid 2px;
+        text-decoration: none;
+      }
 
-    h1 {
-      padding-top: 5vh;
-      font-size: 42px;
-    }
+      a.wip {
+        color: var(--f);
+        pointer-events: none;
+        border: 0px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
 
-    hr {
-      width: 100%;
-    }
-
-    b {
-      color: var(--d);
-    }
-
-    a {
-      color: inherit;
-      transition: 0.2s;
-    }
-
-    a:hover {
-      scale: 1.05;
-      background-color: var(--d);
-      color: var(--f) !important;
-    }
-
-    .disclaimer {
-      background-color: var(--b2);
-      margin: 2%;
-      padding: 1%;
-      width: fit-content;
-    }
-
-    .link-utili>a {
-      color: var(--d);
-      margin: 0 1%;
-    }
-
-    .anno {
-      margin: 2%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .anno>h2 {
-      text-align: left;
-      width: 100%;
-    }
-
-    .anno>a {
-      margin: 1%;
-      width: fit-content;
-      color: var(--f);
-      padding: 1%;
-      border: solid 2px;
-      text-decoration: none;
-    }
-
-    a.wip {
-      color: var(--f);
-      pointer-events: none;
-      border: 0px;
-      text-decoration: none;
-    }
-  </style>
-</head>
-
-<body>
-  <h1>CSUNIBO</h1>
-  <div class="disclaimer">
+  <body>
+    <h1>CSUNIBO</h1>
+    <div class="disclaimer">
+      <p>
+        <b>DISCLAIMER:</b> Il sito e' in costruzione, dunque questa e' solo una
+        versione beta che abbiamo sviluppato per questa sessione. Tutto l'aiuto
+        per lo sviluppo e' gradito. Tutte le cose WIP (Work In Progress), hanno
+        bisogno di qualcuno che le faccia, quindi se ti interessano contribuisci
+        alle repo &lt;3
+      </p>
+    </div>
     <p>
-      <b>DISCLAIMER:</b> Il sito e' in costruzione, dunque questa e' solo una
-      versione beta che abbiamo sviluppato per questa sessione. Tutto l'aiuto
-      per lo sviluppo e' gradito. Tutte le cose WIP (Work In Progress), hanno
-      bisogno di qualcuno che le faccia, quindi se ti interessano contribuisci
-      alle repo &lt;3
+      Se ti serve una mano scrivi a
+      <a href="https://t.me/takenX10">@takenX10</a>,
+      <a href="https://t.me/f_o_x_y_s_e_t_a">@f_o_x_y_s_e_t_a</a>,
+      <a href="https://t.me/pippognetow">@pippognetow</a>,
+      <a href="https://t.me/alii_benatti">@alii_benatti</a>,
+      <a href="https://t.me/flecarts">@flecarts</a>,
+      <a href="https://t.me/lucat1">@lucat1</a>,
+      <a href="https://t.me/ZE_BuG">@ZE_BuG</a> su telegram
     </p>
-  </div>
-  <p>
-    Se ti serve una mano scrivi a
-    <a href="https://t.me/takenX10">@takenX10</a>,
-    <a href="https://t.me/f_o_x_y_s_e_t_a">@f_o_x_y_s_e_t_a</a>,
-    <a href="https://t.me/pippognetow">@pippognetow</a>,
-    <a href="https://t.me/alii_benatti">@alii_benatti</a>,
-    <a href="https://t.me/flecarts">@flecarts</a>,
-    <a href="https://t.me/lucat1">@lucat1</a>,
-    <a href="https://t.me/ZE_BuG">@ZE_BuG</a> su telegram
-  </p>
-  <hr />
-  <div class="link-utili">
-    <h2>Link utili</h2>
-    <a href="https://github.com/csunibo">Pagina Github</a>|
-    <a href="https://t.me/Adm_bot_inf">Gruppo telegram gestione csunibo</a>|
-    <a href="#" class="wip">Introduzione sito csunibo(WIP)</a>|
-    <a href="#" class="wip">Regolamento(WIP)</a>|
-    <a href="#" class="wip">Contribuire(WIP)</a>|
-  </div>
+    <hr />
+    <div class="link-utili">
+      <h2>Link utili</h2>
+      <a href="https://github.com/csunibo">Pagina Github</a>|
+      <a href="https://t.me/Adm_bot_inf">Gruppo telegram gestione csunibo</a>|
+      <a href="#" class="wip">Introduzione sito csunibo(WIP)</a>|
+      <a href="#" class="wip">Regolamento(WIP)</a>|
+      <a href="#" class="wip">Contribuire(WIP)</a>|
+    </div>
 
-  <div class="anno">
-    <h2>Primo anno</h2>
-    <hr />
-    <a href="https://csunibo.github.io/architettura-degli-elaboratori/">Architettura degli elaboratori</a>
-    <a href="https://csunibo.github.io/logica-per-informatica/">Logica per l'informatica</a>
-    <a href="https://csunibo.github.io/programmazione/">Programmazione</a>
-    <a href="https://csunibo.github.io/algebra-e-geometria/">Algebra e geometria</a>
-    <a href="https://csunibo.github.io/algoritmi-e-strutture-di-dati/">Algoritmi e strutture di dati</a>
-    <a href="https://csunibo.github.io/analisi-matematica/">Analisi matematica</a>
-  </div>
-  <div class="anno">
-    <h2>Secondo anno</h2>
-    <hr />
-    <a href="https://csunibo.github.io/calcolo-numerico/">Calcolo numerico</a>
-    <a href="https://csunibo.github.io/ottimizzazione-combinatoria/">Ottimizzazione combinatoria</a>
-    <a href="https://csunibo.github.io/calcolo-delle-probabilita-e-statistica/">Calcolo delle probabilita e
-      statistica</a>
-    <a href="https://csunibo.github.io/tecnologie-web/">Tecnologie Web</a>
-    <a href="https://csunibo.github.io/linguaggi-di-programmazione/">Linguaggi di programmazione</a>
-    <a href="https://csunibo.github.io/reti-di-calcolatori/">Reti di calcolatori</a>
-    <a href="https://csunibo.github.io/sistemi-operativi/">Sistemi operativi</a>
-  </div>
-  <div class="anno">
-    <h2>Terzo anno</h2>
-    <hr />
-    <a href="https://csunibo.github.io/basi-di-dati/" class="wip">Basi di dati (WIP)</a>
-    <a href="https://csunibo.github.io/informatica-teorica/">Informatica teorica</a>
-    <a href="https://csunibo.github.io/ingegneria-del-software/" class="wip">Ingegneria del software (WIP)</a>
-    <a href="https://csunibo.github.io/introduzione-apprendimento-automatico/" class="wip">Introduzione
-      all'apprendimento automatico (WIP)</a>
-    <a href="https://csunibo.github.io/fondamenti-di-cybersecurity/" class="wip">Fondamenti di cybersecurity (WIP)</a>
-    <a href="https://csunibo.github.io/progetto-di-sistemi-virtuali/" class="wip">Progetto di sistemi virtuali (WIP)</a>
-    <a href="https://csunibo.github.io/fisica/" class="wip">Fisica (WIP)</a>
-    <a href="https://csunibo.github.io/laboratorio-di-applicazioni-mobili/" class="wip">Laboratorio di applicazioni
-      mobili (WIP)</a>
-    <a href="https://csunibo.github.io/storia-informatica-e-dei-dispositivi-di-calcolo/" class="wip">Storia
-      dell'informatica e dei dispositivi di calcolo (WIP)</a>
-    <a href="https://csunibo.github.io/strategia-aziendale/" class="wip">Strategia aziendale (WIP)</a>
-  </div>
-  <div class="anno">
-    <h2>Altri progetti</h2>
-    <hr />
-    <a href="https://github.com/csunibo/informabot">Informabot</a>
-    <a href="https://github.com/csunibo/cs-discord-bot">InfoBot</a>
-    <a href="https://github.com/csunibo/segretario_unibo">Segretario</a>
-    <a href="https://github.com/csunibo/filenames-linter">Filenames linter</a>
-    <a href="https://github.com/csunibo/csurename">csurename</a>
-  </div>
-</body>
-
+    <div class="anno">
+      <h2>Primo anno</h2>
+      <hr />
+      <a href="https://csunibo.github.io/architettura-degli-elaboratori/"
+        >Architettura degli elaboratori</a
+      >
+      <a href="https://csunibo.github.io/logica-per-informatica/"
+        >Logica per l'informatica</a
+      >
+      <a href="https://csunibo.github.io/programmazione/">Programmazione</a>
+      <a href="https://csunibo.github.io/algebra-e-geometria/"
+        >Algebra e geometria</a
+      >
+      <a href="https://csunibo.github.io/algoritmi-e-strutture-di-dati/"
+        >Algoritmi e strutture di dati</a
+      >
+      <a href="https://csunibo.github.io/analisi-matematica/"
+        >Analisi matematica</a
+      >
+    </div>
+    <div class="anno">
+      <h2>Secondo anno</h2>
+      <hr />
+      <a href="https://csunibo.github.io/calcolo-numerico/">Calcolo numerico</a>
+      <a href="https://csunibo.github.io/ottimizzazione-combinatoria/"
+        >Ottimizzazione combinatoria</a
+      >
+      <a
+        href="https://csunibo.github.io/calcolo-delle-probabilita-e-statistica/"
+        >Calcolo delle probabilita e statistica</a
+      >
+      <a href="https://csunibo.github.io/tecnologie-web/">Tecnologie Web</a>
+      <a href="https://csunibo.github.io/linguaggi-di-programmazione/"
+        >Linguaggi di programmazione</a
+      >
+      <a href="https://csunibo.github.io/reti-di-calcolatori/"
+        >Reti di calcolatori</a
+      >
+      <a href="https://csunibo.github.io/sistemi-operativi/"
+        >Sistemi operativi</a
+      >
+    </div>
+    <div class="anno">
+      <h2>Terzo anno</h2>
+      <hr />
+      <a href="https://csunibo.github.io/basi-di-dati/" class="wip"
+        >Basi di dati (WIP)</a
+      >
+      <a href="https://csunibo.github.io/informatica-teorica/"
+        >Informatica teorica</a
+      >
+      <a href="https://csunibo.github.io/ingegneria-del-software/" class="wip"
+        >Ingegneria del software (WIP)</a
+      >
+      <a
+        href="https://csunibo.github.io/introduzione-apprendimento-automatico/"
+        class="wip"
+        >Introduzione all'apprendimento automatico (WIP)</a
+      >
+      <a
+        href="https://csunibo.github.io/fondamenti-di-cybersecurity/"
+        class="wip"
+        >Fondamenti di cybersecurity (WIP)</a
+      >
+      <a
+        href="https://csunibo.github.io/progetto-di-sistemi-virtuali/"
+        class="wip"
+        >Progetto di sistemi virtuali (WIP)</a
+      >
+      <a href="https://csunibo.github.io/fisica/" class="wip">Fisica (WIP)</a>
+      <a
+        href="https://csunibo.github.io/laboratorio-di-applicazioni-mobili/"
+        class="wip"
+        >Laboratorio di applicazioni mobili (WIP)</a
+      >
+      <a
+        href="https://csunibo.github.io/storia-informatica-e-dei-dispositivi-di-calcolo/"
+        class="wip"
+        >Storia dell'informatica e dei dispositivi di calcolo (WIP)</a
+      >
+      <a href="https://csunibo.github.io/strategia-aziendale/" class="wip"
+        >Strategia aziendale (WIP)</a
+      >
+    </div>
+    <div class="anno">
+      <h2>Altri progetti</h2>
+      <hr />
+      <a href="https://t.me/UniboInformabot">Informabot</a>
+      <a href="https://github.com/csunibo/cs-discord-bot">InfoBot</a>
+      <a href="https://t.me/SegretarioUnibo_bot">Segretario</a>
+      <a href="raccoglitesi/disi.pdf">Raccoglitesi</a>
+      <a href="https://github.com/csunibo/filenames-linter">Filenames linter</a>
+      <a href="https://github.com/csunibo/csurename">csurename</a>
+    </div>
+  </body>
 </html>
