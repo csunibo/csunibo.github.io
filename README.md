@@ -1,4 +1,3 @@
 # csunibo.github.io
-csunibo static homepage
 
-> **DISCLAIMER** This is WIP, any help is appreciated
+[CSUnibo](https://github.com/csunibo)'s static homepage.
