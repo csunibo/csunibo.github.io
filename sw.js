@@ -1,5 +1,5 @@
-var APP_PREFIX = 'dicethrow_';
-var VERSION = 'version_06';
+var APP_PREFIX = 'CSunibo_';
+var VERSION = 'version_01';
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   '/csunibo.github.io/',
