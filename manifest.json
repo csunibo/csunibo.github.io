@@ -4,9 +4,9 @@
   "start_url": ".",
   "id": "/csunibo.github.io/",
   "display": "standalone",
-  "background_color": "#2A3443",
+  "background_color": "#282828",
   "description": "Raccolta risorse CSunibo",
-  "theme_color": "#2A3443",
+  "theme_color": "#282828",
   "icons": [
     {
       "src": "./unibo192.png",
