@@ -23,7 +23,14 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="mobile-web-app-status-bar-style" content="black" />
   <meta name="mobile-web-app-title" content="CSunibo" />
-
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register(
+        '/csunibo.github.io/sw.js',
+        {scope: '/csunibo.github.io/'}
+      )
+    }
+  </script>
   <!-- manifest ends -->
 
   <title>CSUnibo</title>
