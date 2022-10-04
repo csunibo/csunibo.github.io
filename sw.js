@@ -3,7 +3,8 @@ var VERSION = 'version_01';
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   '/csunibo.github.io/',
-  '/csunibo.github.io/index.html'
+  '/csunibo.github.io/index.html',
+  '/csunibo.github.io/programmazione/'
 ]
 
 self.addEventListener('fetch', function(e) {
