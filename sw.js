@@ -21,12 +21,12 @@ var URLS = [
   '/informatica-teorica/',
   '/ingegneria-del-software/',
   '/introduzione-apprendimento-automatico/',
-  '/fondamenti-di-cibersecurity/',
+  '/Fondamenti-di-cybersecurity/',
   '/progetto-di-sistemi-virtuali/',
   '/fisica/',
   '/laboratorio-di-applicazioni-mobili/',
   '/storia-informatica-e-dei-dispositivi-di-calcolo/',
-  '/strategie-aziendali/',
+  '/strategia-aziendale/',
 ]
 
 self.addEventListener('fetch', function(e) {
