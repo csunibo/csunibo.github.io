@@ -10,6 +10,35 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--  manifest  -->
+  <link rel="manifest" href="./manifest.json">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <meta name="theme-color" content="#2A3443" />
+  <meta name="description" content="Raccolta risorse CSunibo" />
+
+  <!-- iOS -->
+  <link rel="apple-touch-icon" href="./img/unibo192.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-status-bar-style" content="black" />
+  <meta name="mobile-web-app-title" content="CSunibo" />
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register(
+        '/csunibo.github.io/sw.js',
+        {scope: '/csunibo.github.io/'}
+      )
+    }
+  </script>
+  <!-- manifest ends -->
+
+  <!-- icons -->
+  <link rel=icon href="img/unibo32.ico" sizes="32x32" type="image/x-icon">
+  <link rel=icon href="img/unibo128.ico" sizes="128x128" type="image/x-icon">
+  <link rel=icon href="img/unibo180.ico" sizes="180x180" type="image/x-icon">
+  <link rel=icon href="img/unibo192.ico" sizes="192x192" type="image/x-icon">
+
   <title>CSUnibo</title>
   <style>
     :root {

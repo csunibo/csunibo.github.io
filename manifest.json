@@ -1,0 +1,39 @@
+{
+  "name": "Raccolta risorse CSunibo",
+  "short_name": "CSunibo",
+  "start_url": ".",
+  "id": "/csunibo.github.io/",
+  "display": "standalone",
+  "background_color": "#282828",
+  "description": "Raccolta risorse CSunibo",
+  "theme_color": "#282828",
+  "screenshots": [
+    {
+      "src": "./img/addHome.png",
+      "sizes": "747x1600",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/previewHome.png",
+      "sizes": "747x1600",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/home.png",
+      "sizes": "747x1600",
+      "type": "image/png"
+    }
+  ],
+  "icons": [
+    {
+      "src": "./img/unibo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/unibo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
