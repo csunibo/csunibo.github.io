@@ -21,7 +21,7 @@ var URLS = [
   '/informatica-teorica/',
   '/ingegneria-del-software/',
   '/introduzione-apprendimento-automatico/',
-  '/Fondamenti-di-cybersecurity/',
+  '/fondamenti-di-cybersecurity/',
   '/progetto-di-sistemi-virtuali/',
   '/fisica/',
   '/laboratorio-di-applicazioni-mobili/',
