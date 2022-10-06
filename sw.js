@@ -5,7 +5,7 @@ var URLS = [
   '/csunibo.github.io/',
   '/index.html',
   '/programmazione/',
-  '/architettura-degli-elaborati/',
+  '/architettura-degli-elaboratori/',
   '/logica-per-informatica/',
   '/algebra-e-geometria/',
   '/algoritmi-e-strutture-di-dati/',
