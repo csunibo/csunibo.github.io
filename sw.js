@@ -27,6 +27,7 @@ var URLS = [
   '/laboratorio-di-applicazioni-mobili/',
   '/storia-informatica-e-dei-dispositivi-di-calcolo/',
   '/strategia-aziendale/',
+  '/Diariotirocinio/',
 ]
 
 self.addEventListener('fetch', function(e) {
