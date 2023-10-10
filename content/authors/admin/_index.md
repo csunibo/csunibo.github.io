@@ -47,7 +47,7 @@ social:
     link: 'https://github.com/csunibo'
   - icon: telegram
     icon_pack: fab
-    link: https://t.me/csunibo
+    link: 'https://t.me/csunibo'
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)

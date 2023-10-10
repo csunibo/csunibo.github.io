@@ -10,3 +10,6 @@ main:
   - name: About Us
     url: about/
     weight: 20
+  - name: Wiki
+    url: wiki/
+    weight: 30
