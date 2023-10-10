@@ -17,8 +17,7 @@ author: admin
 #      path:  # enter filename of a video in /assets/media
 #  css_class: fullscreen
 ---
-<!-- 
-👋 Hi, there! I'm **Alice**, a machine learning researcher at Netflix.
-{style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+Questa è la nuova pagina di _CSUnibo_! <br>
+Stavi cercando la vecchia pagina? La trovi migliorata su [risorse.students.cs.unibo.it](https://risorse.students.cs.unibo.it).
 
-Check out my [resumé](/about/) and portfolio below 😍 -->
+Qui troverai i link a tutti progetti e qualche info in più su di noi.
