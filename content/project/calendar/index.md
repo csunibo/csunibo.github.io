@@ -1,7 +1,8 @@
 ---
 title: UniboCalendar
-summary: Bot Telegram per assistere gli studenti del DISI dell'Università di Bologna.
+summary: Calendario in formato ICS per i corsi dell'Università di Bologna, in 
+ modo da poterli aggiungere al proprio calendario personale.
 tags:
   - other
-external_link: https://github.com/csunibo/informabot
+external_link: https://calendar.students.cs.unibo.it
 ---
