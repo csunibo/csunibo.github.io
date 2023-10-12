@@ -1,8 +1,16 @@
-+++
-archetype = "chapter"
-title = "Raccolte di risorse"
-weight = 2
-+++
+---
+title: "Raccolte di risorse"
+date: "2023-04-28T00:19:24+02:00"
+authors:
+  - csunibo
+
+tags:
+  - risorse
+
+categories:
+  - contribuire
+  - risorse
+---
 
 Per ciascun insegnamento, raccogliamo in modo organizzato appunti, testi e
 soluzioni di esercizi e prove di esame, libri, dispense, lucidi e molto altro.

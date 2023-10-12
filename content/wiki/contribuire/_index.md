@@ -1,8 +1,17 @@
-+++
-archetype = "chapter"
-title = "Contribuire"
-weight = 1
-+++
+---
+title: "Contribuire"
+weight: 1
+date: "2023-10-10"
+
+authors:
+  - csunibo
+
+tags:
+  - howto
+
+categories:
+  - contribuire
+---
 
 Quando usi i materiali di CSUnibo, Informabot o uno qualsiasi degli altri
 strumenti gratuiti a tua disposizione, godi del frutto del duro lavoro di altre
