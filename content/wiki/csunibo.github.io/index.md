@@ -1,7 +1,7 @@
 ---
 title: 'csunibo.github.io'
 subtitle: 'Contribuire alla wiki di CSUnibo'
-summary: ''
+summary: 'Come contribuire a questa wiki? Leggi tutto qui...'
 
 # Link this post with a project
 projects: []
@@ -22,7 +22,7 @@ featured: false
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: ''
-  focal_point: ''
+  focal_point: 'Smart'
   placement: 2
   preview_only: false
 

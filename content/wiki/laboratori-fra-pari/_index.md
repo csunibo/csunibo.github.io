@@ -1,8 +1,17 @@
-+++
-archetype = "chapter"
-title = "Laboratori Fra Pari"
-weight = 7
-+++
+---
+archetype: "chapter"
+title: "Laboratori Fra Pari"
+date: "2023-04-28T00:19:24+02:00"
+authors:
+  - csunibo
+  - admstaff
+
+tags:
+  - risorse
+
+categories:
+  - laboratori fra pari
+---
 
 I laboratori fra pari sono eventi formativi organizzati da CSUnibo e tenuti da e
 per persone che studiano nei Corsi di Laurea del nostro dipartimento. Coprono

@@ -1,13 +1,15 @@
 ---
 title: Wiki
 cms_exclude: true
+type: wiki
 
-# View.
-view: compact
-flip_alt_rows: false
+# Field to sort by, such as Date or Title
+sort_by: 'Date'
+sort_ascending: true
 
-# Optional header image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+# Choose a listing view
+view: card
+# Choose single or dual column layout
+columns: '1'
+flip_alt_rows: true
 ---
