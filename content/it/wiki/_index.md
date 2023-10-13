@@ -14,4 +14,3 @@ view: card
 columns: '1'
 flip_alt_rows: true
 ---
-Sorry! Our [wiki](https://csunibo.github.io/wiki) has not been translated yet.
