@@ -1,6 +1,7 @@
 ---
 title: "CSGITBOT"
 date: 2023-06-02T12:15:00+02:00
+draft: true
 ---
 
 See [github repo](https://github.com/csunibo/csgitbot) for the code
