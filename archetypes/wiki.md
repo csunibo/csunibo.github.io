@@ -22,8 +22,8 @@ featured: false
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: ''
-  focal_point: ''
-  placement: 2
+  focal_point: ''     # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  placement: 2        # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
   preview_only: false
 
 authors:

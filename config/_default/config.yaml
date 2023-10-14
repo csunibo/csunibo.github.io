@@ -11,15 +11,17 @@ baseURL: 'https://csunibo.github.io/' # Website URL
 ############################
 
 cascade:
-  # Blog post options
+  # Blog post options for csunibo/wiki
   - _target:
-      path: /post/**
+      path: /wiki/**
+    pager: true
     editable: true
     reading_time: true
     commentable: true
     show_related: true
     show_breadcrumb: true
-
+    share: true
+    
 ############################
 ## LANGUAGE
 ############################
