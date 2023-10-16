@@ -14,7 +14,9 @@ contribuire alle risorse di un insegnamento:
 4. visualizzerai `github.com/nome-utente/nome-della-repository`. Usala come una
    tua cartella condivisa (scollegata dal progetto originale) per aggiungere o
    modificare contenuti;
-5. quando hai finito, apri la tendina "Contribute" e clicca su "Open pull
+5. se stai aggiungendo file con nuove estensioni che prima non erano presenti,
+   aggiungile a `.github/workflows/build-and-deploy.yml`;
+7. quando hai finito, apri la tendina "Contribute" e clicca su "Open pull
    request": scegli un titolo e un messaggio (opzionali) per descrivere il tuo
    lavoro, poi clicca su "Create pull request".
 
