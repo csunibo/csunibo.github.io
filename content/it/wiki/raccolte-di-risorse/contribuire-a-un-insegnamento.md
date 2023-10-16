@@ -3,6 +3,8 @@ title: "Contribuire a un insegnamento"
 date: 2023-07-29T14:38:19+02:00
 ---
 
+Prerequisito: aver letto la [breve introduzione alle raccolte di risorse](..).
+
 Se sei alle prime armi, usare l'interfaccia _web_ di GitHub è un modo facile di
 contribuire alle risorse di un insegnamento:
 
