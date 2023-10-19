@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: CSUnibo # Website name
-baseURL: 'https://csunibo.github.io/' # Website URL
+baseURL: "https://csunibo.github.io/it/" # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -21,7 +21,7 @@ cascade:
     show_related: true
     show_breadcrumb: true
     share: true
-    
+
 ############################
 ## LANGUAGE
 ############################
@@ -53,9 +53,9 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]

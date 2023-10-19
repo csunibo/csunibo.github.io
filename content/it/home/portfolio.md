@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: ''
-subtitle: ''
+title: ""
+subtitle: ""
 
 content:
   # Page type to display. E.g. project.
@@ -26,19 +26,21 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
-      tag: '*'
-    - name: Risorse
-      tag: risorse
-    - name: Work in progress
-      tag: wip
-    - name: Other
-      tag: other
+    - name: Applicativi web
+      tag: web
+    - name: Bot/Scraper
+      tag: bot
+    - name: Tesi
+      tag: tesi
+    - name: Dipendenze
+      tag: dipendenze
+    - name: In arrivo
+      tag: arrivo
 
 design:
-  columns: '1'
+  columns: "1"
   view: masonry
   flip_alt_rows: true
   background: {}
-  spacing: {padding: [0, 0, 0, 0]}
+  spacing: { padding: [0, 0, 0, 0] }
 ---

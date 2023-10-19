@@ -1,8 +1,8 @@
 ---
 title: Risorse
-summary: Sito dinamico che raggruppa le risorse per gli insegnamenti delle Lauree in Informatica, Ing. Informatica, Informatica per il Management e le relative Lauree Magistrali
+summary: Sito dinamico per consultare appunti, esercizi, libri, esami, ...
 tags:
-  - risorse
-date: '2023-08-01T16:39:57+02:00'
+  - web
+date: "2023-08-01T16:39:57+02:00"
 external_link: http://risorse.students.cs.unibo.it
 ---
