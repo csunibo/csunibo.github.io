@@ -26,9 +26,9 @@ Raccoglitesi è un web scraper scritto in golang, basato sul
 del sito, come:
 
 - `https://www.unibo.it/it/ateneo/sedi-e-strutture/dipartimenti`, per scoprire i
-  dipartimenti presenti
+  dipartimenti presenti;
 - `https://{{dip}}.unibo.it/it/dipartimento/persone/docenti-e-ricercatori` per
-  trovare i nomi delle persone in dipartimento
+  trovare i nomi delle persone in dipartimento;
 - `https://www.unibo.it/sitoweb/gianluigi.zavattaro/didattica?tab=tesi` per
   trovare le tesi listate sul sito.
 
@@ -36,3 +36,9 @@ del sito, come:
 URL delle risorse, tags HTML mediante il quale si trovano le informazioni
 volute). È quindi importante continuare a monitorare se lo script funziona
 ancora. Per questo motivo il programma è eseguito ogni giorno, a mezzanotte.
+
+## Dipartimenti analizzati
+- [DISI: Dipartimento di Informatica - Scienza e
+  Ingegneria](https://csunibo.github.io/raccoglitesi/disi)
+- [DEI: Ingegneria dell’Energia elettrica e dell’Informazione "Guglielmo
+  Marconi"](https://csunibo.github.io/raccoglitesi/dei)
