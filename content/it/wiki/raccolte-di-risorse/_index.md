@@ -28,7 +28,8 @@ un'altra persona, assicurati:
   offensivi o illegali;
 - che tutti i [controlli automatici](./controlli-automatici) passino;
 - di usare, dove possibile, "sorgenti" `.tex`/`.md`/`.doc(x)`/`.odt(x)` e simili
-  anziché le loro controparti "compilate" PDF/HTML.
+  anziché le loro controparti "compilate" PDF/HTML (e comunque mai immagini
+  non incorporate in altri documenti);
 - di caricare, se possibile, la risorsa stessa anziché un collegamento a una sua
   versione esterna: in questo modo rendi possibile ad altre persone ampliarla e
   correggerla in futuro.
