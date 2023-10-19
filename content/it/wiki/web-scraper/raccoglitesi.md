@@ -15,7 +15,8 @@ aggiorna in automatico e quotidianamente.
 
 Il progetto è ospitato su [GitHub](https://github.com/csunibo/raccoglitesi).
 La versione più recente dell'elenco generato è sempre consultabile
-[qui](https://csunibo.github.io/raccoglitesi/disi.pdf).
+[qui in PDF](https://csunibo.github.io/raccoglitesi/disi.pdf) o [qui come
+pagina web](https://csunibo.github.io/raccoglitesi/disi).
 
 ## Come funziona
 
