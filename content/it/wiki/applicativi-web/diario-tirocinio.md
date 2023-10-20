@@ -14,7 +14,7 @@ effettive e aggiungerle al proprio resoconto ore.
 
 ## Utilizzo
 
-1. Accedere al sito web [csunibo.github.io/diario-tirocinio/](csunibo.github.io/diario-tirocinio/)
+1. Accedere al sito web [csunibo.github.io/diario-tirocinio](https://csunibo.github.io/diario-tirocinio/)
 2. Selezionare il numero di ore condotte
 3. \[Opzionale\] Scrivere una descrizione del lavoro svolto
 4. Fare clic su `Aggiungi attività`
