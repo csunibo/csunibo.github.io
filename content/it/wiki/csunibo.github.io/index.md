@@ -35,8 +35,6 @@ categories:
 ---
 [CSUnibo](https://github.com/csunibo)'s static homepage.
 
-Per contribuire al sito, apri una [issue](https://github.com/csunibo/csunibo.github.io/issues) o fai una [pull request](https://github.com/csunibo/csunibo.github.io/pulls).
-
 ## Come fare il deploy localmente?
 ```bash
 hugo server
