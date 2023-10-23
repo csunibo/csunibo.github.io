@@ -8,17 +8,15 @@ Prerequisito: aver letto la [breve introduzione alle raccolte di risorse](..).
 Se sei alle prime armi, usare l'interfaccia _web_ di GitHub è un modo facile di
 contribuire alle risorse di un insegnamento:
 
-1. quando visioni le risorse, in cima alla pagina vedrai il
-   `nome-della-repository` che le contiene (ad esempio, `sistemi-operativi`);
-2. visita `github.com/csunibo/nome-della-repository` (o cerca il nome
-   nell'[elenco](https://github.com/orgs/csunibo/repositories));
-3. in alto a destra, clicca su "Fork" e, sulla pagina risultante, "Create fork";
-4. visualizzerai `github.com/nome-utente/nome-della-repository`. Usala come una
+1. quando visioni le risorse che vuoi modificare, a destra del percorso in cima
+   alla pagina clicca sull'icona {{< icons/icon simple github >}} GitHub;
+2. in alto a destra, clicca su "Fork" e, sulla pagina risultante, "Create fork";
+3. visualizzerai `github.com/nome-utente/nome-della-repository`. Usala come una
    tua cartella condivisa (scollegata dal progetto originale) per aggiungere o
    modificare contenuti;
-5. se stai aggiungendo file con nuove estensioni che prima non erano presenti,
-   aggiungile a `.github/workflows/build-and-deploy.yml`;
-7. quando hai finito, apri la tendina "Contribute" e clicca su "Open pull
+4. se stai aggiungendo file con nuove estensioni che prima non erano presenti,
+   specificale in `.github/workflows/build-and-deploy.yml`;
+5. quando hai finito, apri la tendina "Contribute" e clicca su "Open pull
    request": scegli un titolo e un messaggio (opzionali) per descrivere il tuo
    lavoro, poi clicca su "Create pull request".
 
