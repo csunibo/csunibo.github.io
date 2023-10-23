@@ -9,7 +9,7 @@ Se sei alle prime armi, usare l'interfaccia _web_ di GitHub è un modo facile di
 contribuire alle risorse di un insegnamento:
 
 1. quando visioni le risorse che vuoi modificare, a destra del percorso in cima
-   alla pagina clicca sull'icona {{< icons/icon simple github >}} GitHub;
+   alla pagina clicca sull'icona GitHub {{< icon pack=fab name=github >}};
 2. in alto a destra, clicca su "Fork" e, sulla pagina risultante, "Create fork";
 3. visualizzerai `github.com/nome-utente/nome-della-repository`. Usala come una
    tua cartella condivisa (scollegata dal progetto originale) per aggiungere o
