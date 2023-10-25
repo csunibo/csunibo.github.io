@@ -6,8 +6,8 @@ date: 2023-06-06T00:49:44+02:00
 Aggiungere un nuovo insegnamento è facile, se ti trovi già all'interno
 dell'organizzazione [CSUnibo su GitHub](https//github.com/csunibo):
 
-1. su [template](https://github.com/csunibo/template), usa "Use this
-   template"/"Create a new repository";
+1. su [template-it](https://github.com/csunibo/template-it)/[template-en](https://github.com/csunibo/template-en),
+   usa "Use this template"/"Create a new repository";
 2. come nuovo nome, usa `la-convenzione-kebab-case`, `ing-` come eventuale
    prefisso per Ingegneria informatica, `isi-` come eventuale prefisso per
    Ingegneria e scienze informatiche (non servono prefissi per distinguere
