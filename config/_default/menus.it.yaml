@@ -10,6 +10,9 @@ main:
   - name: About Us
     url: about/
     weight: 20
+  - name: Milestones
+    url: milestones/
+    weight: 30
   - name: Wiki
     url: wiki/
-    weight: 30
+    weight: 40
