@@ -1,0 +1,21 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+it:
+  languageCode: it-it
+  contentDir: content/it
+  params:
+    description: Comunità di chi studia presso il Dipartimento di Informatica - Scienza e Ingegneria dell'Universit di Bologna
+
+en:
+  languageCode: en-us
+  contentDir: content/en
+  params:
+    description: Community of students from the Department of Computer Science and Engineering of the University of Bologna
+  menu:
+    main:
+      - name: 传
+        url: "#about"
+        weight: 1

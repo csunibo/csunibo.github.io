@@ -1,0 +1,67 @@
+# Page Sharer
+# Documentation: https://wowchemy.com/docs/hugo-tutorials/page-sharer/
+
+[[buttons]]
+  id = "telegram"
+  url = "https://t.me/share/url?url={url}&text={text}"
+  title = "Telegram"
+  icon_pack = "fab"
+  icon = "telegram"
+  enable = true
+
+[[buttons]]
+  id = "whatsapp"
+  url = "whatsapp://send?text={title}%20{url}"
+  title = "WhatsApp"
+  icon_pack = "fab"
+  icon = "whatsapp"
+  enable = true
+
+[[buttons]]
+  id = "signal"
+  url = "signal://send?text={title}%20{url}"
+  title = "Signal"
+  icon = "signal"
+  icon_pack = "custom"
+  enable = false
+
+[[buttons]]
+  id = "reddit"
+  url = "https://reddit.com/submit?url={url}&title={title}"
+  title = "Reddit"
+  icon_pack = "fab"
+  icon = "reddit-alien"
+  enable = true
+
+[[buttons]]
+  id = "mastodon"
+  url = "https://mastodonshare.com/?text={title}&url={url}"
+  title = "Mastodon"
+  icon_pack = "fab"
+  icon = "mastodon"
+  enable = true
+
+[[buttons]]
+  id = "bluesky"
+  url = "https://bsky.link/?text={title}&url={url}"
+  title = "bluesky"
+  icon_pack = "fas"
+# icon = "cloud"  
+  icon = "square"
+  enable = true
+
+[[buttons]]
+  id = "email"
+  url = "mailto:?subject={title}&body={url}"
+  title = "Email"
+  icon_pack = "fas"
+  icon = "envelope"
+  enable = true
+
+[[buttons]]
+  id = "copy"
+  url = "https://"
+  title = "Copy Link"
+  icon_pack = "fas"
+  icon = "copy"
+  enable = false
