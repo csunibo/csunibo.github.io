@@ -16,8 +16,11 @@ Per ciascun insegnamento, raccogliamo in modo organizzato appunti, testi e
 soluzioni di esercizi e prove di esame, libri, dispense, lucidi e molto altro.
 Dal loro caricamento diventano visionabili sulle istanze:
 
-- [risorse.students.cs.unibo.it](https://dynamik.vercel.app/) (principale);
-- [csunibo.github.io/dynamik](https://csunibo.github.io/dynamik) (secondaria).
+- [risorse.students.cs.unibo.it](https://risorse.students.cs.unibo.it)
+  (istanza principale);
+- [dynamik.vercel.app](https://dynamik.vercel.app/) (istanza di riserva 1);
+- [csunibo.github.io/dynamik](https://csunibo.github.io/dynamik) (istanza di
+  riserva 2).
 
 ## Controllo qualità
 

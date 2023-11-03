@@ -37,9 +37,7 @@ Sia le risorse degli insegnamenti che tutto il codice di CSUnibo sono ospitati
 su [GitHub](https://github.com/csunibo). Una volta individuato il progetto al
 quale vuoi contribuire, puoi aprire una _Pull Request_ (PR). Se non sai come
 fare, puoi seguire [questa
-guida](https://docs.github.com/en/get-started/quickstart/contributing-to-projects),
-selezionando dalla cima il tuo sistema operativo e la modalità che vorresti
-usare (per esempio, "Linux" e "Web browser" rispettivamente).
+guida](../raccolte-di-risorse/contribuire-a-un-insegnamento/).
 
 ## Proporre un nuovo strumento
 
