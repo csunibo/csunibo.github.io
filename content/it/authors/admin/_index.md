@@ -6,11 +6,11 @@ title: CSUnibo
 superuser: true
 
 # Role/position
-role: ''
+role: ""
 
 # Status emoji
-status:
-  icon: 👥
+# status:
+#   icon: 👥
 
 # Organizations/Affiliations
 # organizations:
@@ -44,17 +44,15 @@ bio: Studenti volontari del Dipartimento di Informatica dell'Università di Bolo
 social:
   - icon: github
     icon_pack: fab
-    link: 'https://github.com/csunibo'
+    link: "https://github.com/csunibo"
   - icon: telegram
     icon_pack: fab
-    link: 'https://t.me/csunibo'
-
-
+    link: "https://t.me/csunibo"
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
 ---
 
-_CSUnibo_ è un punto di raccolta per chi studia presso il  [Dipartimento di
+_CSUnibo_ è un punto di raccolta per chi studia presso il [Dipartimento di
 Informatica - Scienza e Ingegneria (DISI)](https://disi.unibo.it)
 dell'[Università di Bologna](https://www.unibo.it). Qui, chiunque può usufruire
 degli strumenti, delle risorse e dei progetti presenti, nonché collaborare al
