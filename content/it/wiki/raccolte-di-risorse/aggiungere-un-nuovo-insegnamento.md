@@ -30,8 +30,13 @@ dell'organizzazione [CSUnibo su GitHub](https//github.com/csunibo):
     insegnamento di Ingegneria informatica del secondo anno, andrebbero aggiunti
     i gruppo di Ingegneria informatica del secondo e terzo anno;
 11. aggiungi il nuovo insegnamento a
-    [`teachings.json` della repository
-    `config`](https://github.com/csunibo/config/blob/main/teachings.json)
-    affinché sia riconosciuto da Dynamik;
-12. apri una PR su [Dynamik](https://github.com/csunibo/dinamik) in cui
-    aggiorni il sottomodulo git in `src/config`.
+    [`degrees.json`](https://github.com/csunibo/config/blob/main/degrees.json)
+    e
+    [`teachings.json`](https://github.com/csunibo/config/blob/main/teachings.json)
+    della _repository_ `csunibo/config`.
+
+Ecco fatto! Se vuoi che l'insegnamento compaia anche negli elenchi di
+[Dynamik](https://github.com/csunibo/dinamik),
+[Informabot](https://github.com/csunibo/informabot) o di altri servizi, basta
+aggiornare il sottomodulo git di `csunibo/config` nelle rispettive
+_repository_.
