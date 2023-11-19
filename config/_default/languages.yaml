@@ -8,14 +8,19 @@ it:
   contentDir: content/it
   params:
     description: Comunità di chi studia presso il Dipartimento di Informatica - Scienza e Ingegneria dell'Universit di Bologna
+    features:
+      repository:
+        url: "https://github.com/<username>/<repository>"
+        content_dir: content
+        branch: main
 
 en:
   languageCode: en-us
   contentDir: content/en
   params:
     description: Community of students from the Department of Computer Science and Engineering of the University of Bologna
-  menu:
-    main:
-      - name: 传
-        url: "#about"
-        weight: 1
+    features:
+      repository:
+        url: "https://github.com/<username>/<repository>"
+        content_dir: content
+        branch: main
