@@ -4,10 +4,9 @@ date: 2023-04-29T15:13:05+02:00
 ---
 
 Talvolta, gli stessi valori di configurazione possono essere usati più volte in
-progetti diversi di CSUnibo. Per esempio, le espressioni regolari che esprimono
-le convenzioni di nomenclatura sono usate sia dai processi di CI/CD che
-controllano esse siano rispettate sia da `csurename`, che rinomina le risorse
-affinché esse passino in seguito questi controlli.
+progetti diversi di CSUnibo. Per esempio, le informazioni sui corsi di laurea
+e sugli insegnamenti sono usate sia da `csunibo/dynamik` (per la
+visualizzazione delle risorse in rete) che da `csunibo/informabot`.
 
 In un'ottica di riuso del codice, queste configurazioni sono centralizzate
 su [csunibo/config](https://github.com/csunibo/config).
@@ -24,9 +23,13 @@ delle risorse sono memorizzate nei file `.synta`. Synta è un formato interno
 ad-hoc. La correttezza di questi file è verificata automaticamente a ogni
 modifica di `main`.
 
-## Insegnamenti (`courses.json`)
+## Insegnamenti (`teachings.json`)
 
-In `courses.json` sono raccolti tutti gli insegnamenti (obbligatori e opzionali)
-per cui CSUnibo offre strumenti. Sono organizzati per Corsi di Laurea e anni,
-e includono il nome della _repository_ di riferimento e il collegamento al
-gruppo Telegram.
+In `teachings.json` sono raccolti tutti gli insegnamenti (obbligatori e
+opzionali) per cui CSUnibo offre strumenti.
+
+## Corsi di laurea (`degrees.json`)
+
+I vari corsi di laurea del DISI sono elencati e internamente suddivisi in anni.
+Ciascuno contiene anche gli identificativi dei rispettivi insegnamenti in
+`teachings.json`.
