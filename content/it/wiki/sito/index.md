@@ -1,5 +1,5 @@
 ---
-title: 'csunibo.github.io'
+title: 'Il nostro sito'
 subtitle: 'Guida facile e veloce al sito di CSUnibo'
 summary: 'Brevi informazioni per contribuire al sito di CSUnibo, come fare il deploy localmente e come aggiungere nuovi contenuti.'
 
