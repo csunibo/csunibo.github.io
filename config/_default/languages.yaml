@@ -10,9 +10,7 @@ it:
     description: Comunità di chi studia presso il Dipartimento di Informatica - Scienza e Ingegneria dell'Universit di Bologna
     features:
       repository:
-        url: "https://github.com/<username>/<repository>"
-        content_dir: content
-        branch: main
+        content_dir: content/it
 
 en:
   languageCode: en-us
@@ -21,6 +19,4 @@ en:
     description: Community of students from the Department of Computer Science and Engineering of the University of Bologna
     features:
       repository:
-        url: "https://github.com/<username>/<repository>"
-        content_dir: content
-        branch: main
+        content_dir: content/en

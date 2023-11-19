@@ -69,7 +69,6 @@ features:
     enable: false
   repository:
     url: "https://github.com/csunibo/csunibo.github.io"
-    content_dir: content
     branch: main
   avatar:
     gravatar: false
