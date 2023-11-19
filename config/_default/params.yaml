@@ -67,9 +67,6 @@ features:
     enable: true
   privacy_pack:
     enable: false
-  repository:
-    url: "https://github.com/csunibo/csunibo.github.io"
-    branch: main
   avatar:
     gravatar: false
     shape: circle
