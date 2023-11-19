@@ -95,6 +95,10 @@ features:
     provider: ""
     api_key: ""
     zoom: 15
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
 
 extensions:
   cms:
