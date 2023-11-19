@@ -21,6 +21,13 @@ go build
 
 ## Esecuzione
 
+In vista della prima esecuzione, bisogna popolare il sottomodulo che incorpora
+[`csunibo/config`](../infrastruttura/configurazioni/):
+
+```bash
+git submodule update --init --recursive
+```
+
 Per lanciare il bot dalla cartella radice del progetto, usare:
 
 ```bash
@@ -35,9 +42,9 @@ usando il codice di autorizzazione ricevuto da
 
 Quando configuri il bot con
 [BotFather](https://core.telegram.org/bots#6-botfather), ti sarà chiesto di
-mandare la lista dei comandi del tuo bot. Puoi il risultato del comando
-`/help` di Informabot te li fornisce tutti, ma bisogna rimuovere i `/`
-prefissi prima di inoltrare a BotFather.
+mandare la lista dei comandi del tuo bot. Puoi incollare il risultato del
+comando `/help_botfather` di Informabot (a differenza di `/help`, questo comando
+non fa uso di `/` nel risultato).
 
 ## Aggiungere nuovi comandi
 
@@ -113,10 +120,10 @@ caso di fallimento `fallbackText` viene usato come risposta.
 Scrapes tomorrow's timetable from `url`, using `title` as header. On faliure,
 `fallbackText` is used as a reply.
 
-#### `course`
+### Insegnamenti e corsi di laurea
 
-Mette assieme una descrizione dell'insegnamento in questione, includendo diversi
-attributi.
+Insegnamenti e corsi di laurea sono prelevati dal sottomodulo `csunibo/config`
+collocato in `json/condig/`.
 
 ### Memi
 
