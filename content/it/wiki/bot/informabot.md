@@ -4,12 +4,14 @@ date: 2023-04-05T17:47:04+02:00
 ---
 
 `Informabot` (ospitato [su GitHub](https://github.com/csunibo/informabot)) è il
-bot Telegram che assiste gli studenti del DISI. Puoi scrivergli [da
-qui](https://t.me/UniboInformabot).
+bot Telegram che assiste gli studenti del DISI. Puoi scrivergli [da qui](https://t.me/UniboInformabot).
 
 ## Dipendenze
 
 È richiesto [Go](https://go.dev/) 1.18+.
+
+Per la formattazione del codice JSON è richiesto
+[Prettier](https://prettier.io/) `@latest`.
 
 ## Compilazione
 
@@ -73,7 +75,9 @@ con gli elementi di un diverso vettore dall'attributo matrice `items`.
 #### `help`
 
 Il bot risponde elencando ogni coppia comando-descrizione. Se un comando è privo
-di descrizione, viene tralasciato.
+di descrizione, viene tralasciato. L'attributo `slashes` specifica se i
+prefissi `/` per i comandi dovrebbero essere usati (come di consueto) o
+tralasciati (come richiesto da BotFather).
 
 #### `luck`
 
@@ -130,6 +134,19 @@ collocato in `json/condig/`.
 I memi sono memorizzati in `json/memes.json`. Ogni chiave è il nome del comando
 che innesca il meme, mentre ogni valore è il contenuto della risposta del bot
 (un semplice messaggio statico).
+
+## Prima di contribuire
+
+Dopo aver applicato le proprie modifiche, lanciare dalla cartella radice del
+progetto:
+
+```bash
+go test -v ./...           # esegue i test
+go fmt ./...               # formatta il codice Go
+prettier --write **/*.json # formatta i file JSON
+```
+
+Questo assicura che i controlli automatici passino una volta aperta la PR.
 
 ## Ringraziamenti
 
