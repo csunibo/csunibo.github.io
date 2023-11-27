@@ -124,6 +124,12 @@ caso di fallimento `fallbackText` viene usato come risposta.
 Scrapes tomorrow's timetable from `url`, using `title` as header. On faliure,
 `fallbackText` is used as a reply.
 
+#### `issue`
+
+Il bot risponde taggando i `mantainer` di Informabot che sono presenti nel gruppo.
+In caso non ci sia alcun mantainer all'interno del gruppo consiglia di portare 
+all'attenzione dei `mantainer` nel gruppo `csunibo` il problema riscontrato.
+
 ### Insegnamenti e corsi di laurea
 
 Insegnamenti e corsi di laurea sono prelevati dal sottomodulo `csunibo/config`
