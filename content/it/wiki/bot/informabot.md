@@ -126,7 +126,7 @@ Scrapes tomorrow's timetable from `url`, using `title` as header. On faliure,
 
 #### `issue`
 
-Il bot risponde taggando i `mantainer` di informabot che sono presenti nel gruppo.
+Il bot risponde taggando i `mantainer` di Informabot che sono presenti nel gruppo.
 In caso non ci sia alcun mantainer all'interno del gruppo consiglia di portare 
 all'attenzione dei `mantainer` nel gruppo `csunibo` il problema riscontrato.
 
