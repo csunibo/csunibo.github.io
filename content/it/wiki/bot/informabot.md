@@ -8,7 +8,7 @@ bot Telegram che assiste gli studenti del DISI. Puoi scrivergli [da qui](https:/
 
 ## Dipendenze
 
-È richiesto [Go](https://go.dev/) 1.18+.
+È richiesto [Go](https://go.dev/) 1.21+.
 
 Per la formattazione del codice JSON è richiesto
 [Prettier](https://prettier.io/) `@latest`.
