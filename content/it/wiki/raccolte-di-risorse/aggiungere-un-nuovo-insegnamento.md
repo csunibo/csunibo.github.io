@@ -15,20 +15,20 @@ dell'organizzazione [CSUnibo su GitHub](https//github.com/csunibo):
 3. come descrizione, usa una frase simile a "Una raccolta di risorse per
    l'insegnamento di Linguaggi di programmazione (04138) del Corso di Laurea in
    Informatica";
-4. vai su "Create repository from template";
+4. scegli "Public" e vai su "Create repository from template";
 5. abilita GitHub Pages da "Settings" / "Pages" impostando "Source" come
    "GitHub Actions";
-6. nella pagina principale del nuovo insegnamento su GitHub, clicca
-   sull'ingranaggio a fianco di "About";
-7. come "Website", usa `https://risorse.students.cs.unibo.it/nome-repository`,
-   e togli le spunte da "Releases" e "Packages", poi aggiungi "Topics" a piacere
-   e clicca su "Save changes";
-8. aggiorna il README riempiendo ogni segnaposto;
-9. aggiungi eventuali estensioni che vuoi compaiano sul sito risultante
-   modificando `.github/workflows/build-and-deploy.yml`;
-10. concedi i diritti "Mantain" ai gruppi interessati. Per esempio, per un
+6. concedi i diritti "Mantain" ai gruppi interessati. Per esempio, per un
     insegnamento di Ingegneria informatica del secondo anno, andrebbero aggiunti
     i gruppo di Ingegneria informatica del secondo e terzo anno;
+7. nella pagina principale del nuovo insegnamento su GitHub, clicca
+   sull'ingranaggio a fianco di "About";
+8. come "Website", usa `https://risorse.students.cs.unibo.it/nome-repository`,
+   e togli le spunte da "Releases" e "Packages", poi aggiungi "Topics" a piacere
+   e clicca su "Save changes";
+9. aggiorna il README riempiendo ogni segnaposto;
+10. aggiungi eventuali estensioni che vuoi compaiano sul sito risultante
+   modificando `.github/workflows/build-and-deploy.yml`;
 11. aggiungi il nuovo insegnamento a
     [`degrees.json`](https://github.com/csunibo/config/blob/main/degrees.json)
     e
