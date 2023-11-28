@@ -112,17 +112,16 @@ intuire l'anno di corso appropriato. Se il bot non riesce a indovinare alcun
 anno di corso, il valore dell'attributo `noyear` è usato come risposta
 predefinita.
 
-#### `todayLectures`
+#### `buttonsLecture`
 
-Legge gli orari di oggi da `url`, usando `title` come intestazione. In caso di
-fallimento `fallbackText` viene usato come risposta.
-
-#### `tomorrowLectures`
-
-Legge gli orari di domani oggi da `url`, usando `title` come intestazione. In
-caso di fallimento `fallbackText` viene usato come risposta.
-Scrapes tomorrow's timetable from `url`, using `title` as header. On faliure,
-`fallbackText` is used as a reply.
+Crea un percorso a step di selezione per le lezioni dei corsi di laurea 
+(triennali e magistrali) descritti in `csunibo/config/timetables.json`.
+Per prima cosa richiede la selezione del CdL e dell'anno, infine la selezione
+di un giorno a partire da quello odierno fino ai 6 giorni successivi.
+Gli step funzionano grazie alle 
+[callback](https://core.telegram.org/bots/api#callbackquery).
+Usa come intestazione del messaggio il titolo descritto in `title`.
+In caso di fallimento `fallbackText` viene usato come risposta.
 
 #### `issue`
 
