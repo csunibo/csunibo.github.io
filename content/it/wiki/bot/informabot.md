@@ -129,6 +129,17 @@ Il bot risponde taggando i `mantainer` di Informabot che sono presenti nel grupp
 In caso non ci sia alcun mantainer all'interno del gruppo consiglia di portare 
 all'attenzione dei `mantainer` nel gruppo `csunibo` il problema riscontrato.
 
+#### `buttonsRepresentatives`
+
+Crea un percorso a step di selezione per i rappresentanti dei corsi di laurea
+(triennali e magistrali) descritti in 'csunibo/config/representatives.json`.
+Il comando chiede prima di selezionare il Cdl e restituisce l'elenco delle mail
+dei rappresentanti.
+Gli step funzionano grazie alle 
+[callback](https://core.telegram.org/bots/api#callbackquery).
+Usa come intestazione del messaggio il titolo descritto in `title`.
+In caso di fallimento `fallbackText` viene usato come risposta.
+
 ### Insegnamenti e corsi di laurea
 
 Insegnamenti e corsi di laurea sono prelevati dal sottomodulo `csunibo/config`
