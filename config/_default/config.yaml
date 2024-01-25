@@ -22,6 +22,17 @@ cascade:
     show_breadcrumb: true
     share: true
 
+    # Blog post options for csunibo/opportunities
+  - _target:
+      path: /opportunities/**
+    pager: true
+    editable: true
+    reading_time: true
+    commentable: true
+    show_related: true
+    show_breadcrumb: true
+    share: true
+
 ############################
 ## LANGUAGE
 ############################
