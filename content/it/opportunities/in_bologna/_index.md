@@ -5,5 +5,6 @@ weight: 10
 ---
 
 Iniziative organizzate durante l'anno a Bologna dall'Università, enti esterni e gruppi di studenti e appassionati.
+Programmi di studio all'estero organizzati dall'Unibo.
 
 #
