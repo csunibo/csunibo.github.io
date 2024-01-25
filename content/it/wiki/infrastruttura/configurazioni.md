@@ -11,6 +11,13 @@ visualizzazione delle risorse in rete) che da `csunibo/informabot`.
 In un'ottica di riuso del codice, queste configurazioni sono centralizzate
 su [csunibo/config](https://github.com/csunibo/config).
 
+### Modifiche alla repository
+
+Se avvengono delle modifiche nella repository puoi aprire una PR per aggiornare 
+csunibo/config per i servizi che ti interessano urgentemente. Per tutti gli 
+altri abbiamo configurato Dependabot in modo che apra una PR in automatico nel 
+giro di ventiquattr'ore.
+
 ## CI/CD (`.github/workflows/`)
 
 In `.github/workflows`, sono presenti le procedure di CI/CD riutilizzate da
