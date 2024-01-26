@@ -13,3 +13,6 @@ main:
   - name: Wiki
     url: wiki/
     weight: 30
+  - name: Opportunities
+    url: opportunities/
+    weight: 40
