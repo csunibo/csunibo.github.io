@@ -2,7 +2,7 @@
 title: 'Abroad'
 summary: "Master's degrees abroad"
 date: '2024-02-08T01:08:40+01:00'
-weight: 10
+weight: 30
 ---
 
 ### [University of Amsterdam, Master of Logic](https://msclogic.illc.uva.nl/)

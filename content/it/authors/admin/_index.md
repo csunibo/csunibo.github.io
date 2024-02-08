@@ -18,7 +18,7 @@ role: ""
 #   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Studenti volontari del Dipartimento di Informatica dell'Università di Bologna
+bio: Comunità volontaria di chi studia presso il Dipartimento di Informatica - Scienza e Ingegneria dell'Università di Bologna
 
 # interests:
 # - Artificial Intelligence
