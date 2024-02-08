@@ -2,7 +2,7 @@
 title: 'Various'
 summary: Collection of opportunities of diverse nature that do not fall into other categories.
 date: '2024-01-21T21:08:07+01:00'
-weight: 60
+weight: 70
 ---
 
 Collection of opportunities of diverse nature that do not fall into other categories.
