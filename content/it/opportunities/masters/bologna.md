@@ -10,14 +10,14 @@ weight: 10
 Il corso, insegnato principalmente in italiano con alcune materie in inglese, si presenta come il naturale proseguimento della
 Laurea Triennale in Informatica. E' possibile scegliere tre tipi di curricula:
 1. Curriculum A: Tecniche del Software
-2. Curriculum B: Informatica per il Managment
+2. Curriculum B: Informatica per il Management
 3. Curriculum C: Sistemi e Reti
    
 I corsi differiscono solo per l'ultimo anno, dove cambiano le materie obbligatorie. Il corso di laurea sta attraversando una rivisitazione,
 anche grazie al feedback degli studenti, e quindi si consiglia di controllare la pagina del [piano didattico](https://corsi.unibo.it/magistrale/informatica/insegnamenti)
-per avere una versione aggiornata del piano didatti dei tre curricula.
+per avere una versione aggiornata del piano didattico dei tre curricula.
 
-Per contarrare professori o studenti del corso si può usare la pagina [contatti](https://corsi.unibo.it/magistrale/informatica/contatti)
+Per contattare professori o studenti del corso si può usare la pagina [contatti](https://corsi.unibo.it/magistrale/informatica/contatti)
 oppure è possibile entrare nel [gruppo telegram](https://t.me/mag_informatica_unibo) degli studenti.
 
 #
