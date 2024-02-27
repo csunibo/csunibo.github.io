@@ -20,7 +20,8 @@ dell'organizzazione [CSUnibo su GitHub](https//github.com/csunibo):
    "GitHub Actions";
 6. concedi i diritti "Mantain" ai gruppi interessati. Per esempio, per un
     insegnamento di Ingegneria informatica del secondo anno, andrebbero aggiunti
-    i gruppo di Ingegneria informatica del secondo e terzo anno;
+    i gruppo di Ingegneria informatica del secondo e terzo anno.
+    Non è necessario rimuovere sè stessi dal ruolo di Admin;
 7. nella pagina principale del nuovo insegnamento su GitHub, clicca
    sull'ingranaggio a fianco di "About";
 8. come "Website", usa `https://risorse.students.cs.unibo.it/nome-repository`,
