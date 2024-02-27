@@ -36,7 +36,7 @@ dell'organizzazione [CSUnibo su GitHub](https//github.com/csunibo):
     della _repository_ `csunibo/config`.
 
 Ecco fatto! Se vuoi che l'insegnamento compaia anche negli elenchi di
-[Dynamik](https://github.com/csunibo/dinamik),
+[Dynamik](https://github.com/csunibo/dynamik),
 [Informabot](https://github.com/csunibo/informabot) o di altri servizi, basta
 aggiornare il sottomodulo git di `csunibo/config` nelle rispettive
 _repository_.
