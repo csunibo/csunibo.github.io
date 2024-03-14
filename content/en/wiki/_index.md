@@ -13,6 +13,3 @@ view: card
 columns: "1"
 flip_alt_rows: true
 ---
-
-Sorry! Our wiki has not be translated yet. But you can still [read it in
-Italian](https://csunibo.github.io/wiki) or help us translate it.
