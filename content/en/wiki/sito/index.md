@@ -47,9 +47,9 @@ hugo --gc --minify
 ```	
 ----
 ## Adding New Projects to the Homepage
-To add new projects to the homepage, simply create a new markdown file in the `content/it/projects/` folder using the command below.
+To add new projects to the homepage, simply create a new markdown file in the `content/en/project/` folder using the command below.
 ```bash
-hugo new project/project-name/index.md
+hugo new ./content/en/project/project-name/index.md
 ```
 
 {{% callout note %}}
@@ -65,15 +65,15 @@ You can insert a cover image for a content by placing an image in the content fo
 
 ----
 ## Adding New Content to the Wiki
-To add new content to the wiki, simply create a new markdown file in the `content/it/wiki/` folder using the command below.
+To add new content to the wiki, simply create a new markdown file in the `content/en/wiki/` folder using the command below.
 This will generate a file with a ready-to-be-filled header.
 ```bash
-hugo new wiki/content-name/index.md
+hugo new ./content/en/wiki/content-name/index.md
 ```
 
-To add the English version, just do:
+To add the Italian version, just do:
 ```bash	
-hugo new ./content/en/wiki/content-name/index.md
+hugo new wiki/content-name/index.md
 ```
 
 > **Note** Remember to set the categories, authors, and tags correctly for new content so that they can be easily found and classified.
