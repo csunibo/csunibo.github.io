@@ -46,7 +46,7 @@ hugo --gc --minify
 ```	
 ----
 ## Aggiungere nuovi progetti nella home
-Per aggiungere nuovi progetti nella home, basta creare un nuovo file markdown nella cartella `content/it/projects/` con il comando qui sotto.
+Per aggiungere nuovi progetti nella home, basta creare un nuovo file markdown nella cartella `content/it/project/` con il comando qui sotto.
 ```bash
 hugo new project/nome-del-progetto/index.md
 ```
