@@ -12,8 +12,11 @@ Hackathons are collaborative short-term events where programmers, developers, an
 - [Codemotion Hackathon](https://events.codemotion.com/?type=online_hackathon)
 - For a list of past hackathons to look for new editions: [Hackathon-Italia](https://hackathon-italia.github.io/Hackathon-Italia/)
 
-## Worldwide
+## In Europe
+- [START Hack](https://www.startglobal.org/start-hack/home)
+- [ETH Quantum Hackathon](https://qec.amiv.ethz.ch/event/eth-quantum-hackathon-2024/) (Look for new edition)
 
+## Worldwide
 There are numerous hackathons worldwide. Some useful websites to find those of interest are:
 - [Major League Hacking](https://mlh.io/)
 - [Devpost](https://devpost.com/)

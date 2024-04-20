@@ -12,6 +12,10 @@ Gli hackathon sono eventi collaborativi di breve durata in cui programmatori, sv
 - [Hackathon di Codemotion](https://events.codemotion.com/?type=online_hackathon)
 - Per una lista di hackathon passati di cui cercare nuove edizioni: [Hackathon-Italia](https://hackathon-italia.github.io/Hackathon-Italia/)
 
+## In Europa
+- [START Hack](https://www.startglobal.org/start-hack/home)
+- [ETH Quantum Hackathon](https://qec.amiv.ethz.ch/event/eth-quantum-hackathon-2024/) (Cercare nuova edizione)
+
 ## Nel mondo
 
 Esistono moltissimi hackhathon nel mondo. Alcuni siti utili per trovare quelli di interesse sono:
