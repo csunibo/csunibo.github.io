@@ -29,4 +29,4 @@ The various degree courses at DISI are listed and internally divided into years.
 
 ## Maintainers (`maintainers.json`)
 
-In `maintainers.json`, there are the people who you need to talk with if you have any issue with informabot.
+In `maintainers.json`, all the maintainers of the projects are collected presence can be useful.

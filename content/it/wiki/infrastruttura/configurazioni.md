@@ -43,5 +43,5 @@ Ciascuno contiene anche gli identificativi dei rispettivi insegnamenti in
 
 ## Mantenitori (`maintainers.json`)
 
-In `maintainers.json` sono raccolti coloro che sono da contattare in caso di 
-problemi con informabot.
+In `maintainers.json`, sono raccolti tutti i maintainers dei progetti la quale
+presenza può essere utile.
