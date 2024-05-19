@@ -26,3 +26,7 @@ All teachings (mandatory and optional) for which CSUnibo provides tools are coll
 ## Degree Courses (`degrees.json`)
 
 The various degree courses at DISI are listed and internally divided into years. Each one also contains the identifiers of their respective teachings in `teachings.json`.
+
+## Maintainers (`maintainers.json`)
+
+In `maintainers.json`, there are the people who you need to talk with if you have any issue with informabot.

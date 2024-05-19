@@ -40,3 +40,8 @@ opzionali) per cui CSUnibo offre strumenti.
 I vari corsi di laurea del DISI sono elencati e internamente suddivisi in anni.
 Ciascuno contiene anche gli identificativi dei rispettivi insegnamenti in
 `teachings.json`.
+
+## Mantenitori (`maintainers.json`)
+
+In `maintainers.json` sono raccolti coloro che sono da contattare in caso di 
+problemi con informabot.
