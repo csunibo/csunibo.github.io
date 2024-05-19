@@ -29,4 +29,4 @@ The various degree courses at DISI are listed and internally divided into years.
 
 ## Maintainers (`maintainers.json`)
 
-In `maintainers.json`, all the maintainers of the projects are collected presence can be useful.
+In `maintainers.json`, the Telegram contacts of some of the maintainers for our projects are listed.

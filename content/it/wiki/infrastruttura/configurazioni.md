@@ -43,5 +43,5 @@ Ciascuno contiene anche gli identificativi dei rispettivi insegnamenti in
 
 ## Mantenitori (`maintainers.json`)
 
-In `maintainers.json`, sono raccolti tutti i maintainers dei progetti la quale
-presenza può essere utile.
+In `maintainers.json`, sono elencati i contatti Telegram di alcuni dei maintainers 
+per i nostri progetti.
