@@ -26,5 +26,5 @@ When contributing your resources or about to accept someone else's work, make su
 
 - not to upload/accept duplicate, incomprehensible, useless, offensive, or illegal content;
 - that all [automatic checks](./controlli-automatici) pass;
-- to use, where possible, "source" `.tex`/`.md`/`.doc(x)`/`.odt(x)` and similar files instead of their compiled PDF/HTML counterparts (and never unembedded images in other documents);
+- to use, where possible, "source" `.tex`/`.md`/`.typ`/`.doc(x)`/`.odt(x)` and similar files instead of their compiled PDF/HTML counterparts (and never unembedded images in other documents);
 - to upload, if possible, the resource itself rather than a link to an external version: this way, you enable other people to expand and correct it in the future.
