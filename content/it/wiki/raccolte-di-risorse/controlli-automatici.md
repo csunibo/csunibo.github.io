@@ -37,5 +37,5 @@ devono essere rispettate.
 
 ## Compilazione
 
-Eventuali file "sorgenti" `.tex`/`.md`/`.doc(x)`/`.odt(x)` e simili devono
-compilare correttamente nei formati supportati da CSUnibo.
+Eventuali file "sorgenti" `.tex`/`.md`/`.typ`/`.doc(x)`/`.odt(x)` e simili
+devono compilare correttamente nei formati supportati da CSUnibo.

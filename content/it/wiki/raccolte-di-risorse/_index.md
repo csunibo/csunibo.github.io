@@ -30,9 +30,9 @@ un'altra persona, assicurati:
 - di non caricare/accettare contenuti duplicati, incomprensibili, inutili,
   offensivi o illegali;
 - che tutti i [controlli automatici](./controlli-automatici) passino;
-- di usare, dove possibile, "sorgenti" `.tex`/`.md`/`.doc(x)`/`.odt(x)` e simili
-  anziché le loro controparti "compilate" PDF/HTML (e comunque mai immagini
-  non incorporate in altri documenti);
+- di usare, dove possibile, "sorgenti" `.tex`/`.md`/`.typ`/`.doc(x)`/`.odt(x)` e
+  simili anziché le loro controparti "compilate" PDF/HTML (e comunque mai
+  immagini non incorporate in altri documenti);
 - di caricare, se possibile, la risorsa stessa anziché un collegamento a una sua
   versione esterna: in questo modo rendi possibile ad altre persone ampliarla e
   correggerla in futuro.

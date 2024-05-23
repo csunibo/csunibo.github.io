@@ -23,4 +23,4 @@ The rules in [prove.synta](https://github.com/csunibo/config/blob/main/prove.syn
 
 ## Compilation
 
-Any "source" files `.tex`/`.md`/`.doc(x)`/`.odt(x)` and similar must compile correctly into formats supported by CSUnibo.
+Any "source" files `.tex`/`.md`/`.typ`/`.doc(x)`/`.odt(x)` and similar must compile correctly into formats supported by CSUnibo.
