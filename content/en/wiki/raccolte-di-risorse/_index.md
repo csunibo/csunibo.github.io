@@ -18,7 +18,6 @@ they become accessible on the following instances:
 
 - [risorse.students.cs.unibo.it](https://risorse.students.cs.unibo.it) (main instance);
 - [dynamik.vercel.app](https://dynamik.vercel.app/) (backup instance 1);
-- [csunibo.github.io/dynamik](https://csunibo.github.io/dynamik) (backup instance 2).
 
 ## Quality Control
 

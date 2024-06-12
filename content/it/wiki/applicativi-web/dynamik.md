@@ -48,8 +48,7 @@ pnpm preview
 Esistono diverse istanze pubbliche di Dynamik:
 
 - [principale](https://risorse.students.cs.unibo.it);
-- [GitHub Pages](https://csunibo.github.io/dynamik) (più lenta, senza SSR);
-- [Vercel](https://dynamik.vercel.app/) (non pubblicizzata).
+- [Vercel](https://dynamik.vercel.app/) (Istanza di riserva).
 
 Mentre la messa in produzione della seconda e della terza è controllata dai
 processi di CI/CD, per la prima si veda [la guida relativa all'automazione

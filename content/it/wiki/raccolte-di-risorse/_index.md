@@ -19,8 +19,6 @@ Dal loro caricamento diventano visionabili sulle istanze:
 - [risorse.students.cs.unibo.it](https://risorse.students.cs.unibo.it)
   (istanza principale);
 - [dynamik.vercel.app](https://dynamik.vercel.app/) (istanza di riserva 1);
-- [csunibo.github.io/dynamik](https://csunibo.github.io/dynamik) (istanza di
-  riserva 2).
 
 ## Controllo qualità
 

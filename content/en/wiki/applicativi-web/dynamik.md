@@ -48,8 +48,7 @@ pnpm preview
 There are several public instances of Dynamik:
 
 - [main](https://risorse.students.cs.unibo.it);
-- [GitHub Pages](https://csunibo.github.io/dynamik) (slower, without SSR);
-- [Vercel](https://dynamik.vercel.app/) (not advertised).
+- [Vercel](https://dynamik.vercel.app/) (Backup istance).
 
 While the deployment of the second and third instances is controlled by CI/CD processes, for the first one, refer to [the guide on infrastructure automation](https://csunibo.github.io/wiki/infrastruttura/automazione/index.html).
 
