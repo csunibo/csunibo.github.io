@@ -23,5 +23,5 @@ E' necessario installare asciidoctor, oppure asciidoctor-pdf, per convertire il 
 ## Riconoscimenti
 
 Si ringrazia [Fabio Gaiba](https://github.com/faguccio) che, prima
-dello svilupppo di questo progetto, ha reperito le varie descrizioni dei corsi
+dello sviluppo di questo progetto, ha reperito le varie descrizioni dei corsi
 manualmente.
