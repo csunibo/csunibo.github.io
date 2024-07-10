@@ -15,11 +15,12 @@ effettive e aggiungerle al proprio resoconto ore.
 ## Utilizzo
 
 1. Accedere al sito web [csunibo.github.io/diario-tirocinio](https://csunibo.github.io/diario-tirocinio/)
-2. Selezionare il numero di ore condotte
-3. \[Opzionale\] Scrivere una descrizione del lavoro svolto
-4. Fare clic su `Aggiungi attività`
-5. Utilizzare il pulsanti `Rimuovi attività` per eliminare l'ultima attività inserita
-6. E' possibile eventualmente scaricare un PDF delle ore cliccando sul bottone `Scarica PDF`
+2. Aggiungi un semplice titolo
+3. Selezionare il numero di ore condotte
+4. Scrivi una descrizione del lavoro svolto
+5. Fai clic su `Add` per aggiungere l'attività
+6. Utilizza il pulsante a forma di cestino per eliminare attività relativa 
+7. E' possibile eventualmente scaricare un PDF delle ore cliccando sul bottone `Scarica PDF` nella scheda `Convert`
 
 {{% callout info %}}
 Il PDF ottenuto non è un documento ufficiale valido, ma una bozza utile del lavoro svolto
