@@ -17,7 +17,6 @@ author: admin
 #      path:  # enter filename of a video in /assets/media
 #  css_class: fullscreen
 ---
-Questa è la nuova pagina di _CSUnibo_! <br>
-Stavi cercando la vecchia pagina? La trovi migliorata su [risorse.students.cs.unibo.it](https://risorse.students.cs.unibo.it).
+Benvenuti nella nuova pagina di _CSUnibo_! <br>
 
-Qui troverai i link a tutti progetti e qualche info in più su di noi.
+Qui troverai i link a tutti i nostri progetti e ulteriori informazioni su di noi.

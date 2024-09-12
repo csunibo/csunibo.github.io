@@ -19,7 +19,6 @@ author: admin
 ---
 
 This is _CSUnibo_'s new home page! <br>
-Were you looking for the old one? It was improved on [risorse.students.cs.unibo.it](https://risorse.students.cs.unibo.it).
 
 On this page you can find links for our projects, as well as information on our
 community.
