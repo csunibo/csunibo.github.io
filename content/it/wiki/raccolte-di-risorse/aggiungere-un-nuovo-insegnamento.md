@@ -10,7 +10,7 @@ dell'organizzazione [CSUnibo su GitHub](https//github.com/csunibo):
    usa "Use this template"/"Create a new repository";
 2. come nuovo nome, usa `la-convenzione-kebab-case`, `ing-` come eventuale
    prefisso per Ingegneria informatica, `isi-` come eventuale prefisso per
-   Ingegneria e scienze informatiche (non servono prefissi per distinguere
+   Ingegneria e scienze informatiche, `ipim-` come eventuale prefisso per Informatica per il management (non servono prefissi per distinguere
    triennali da magistrali);
 3. come descrizione, usa una frase simile a "Una raccolta di risorse per
    l'insegnamento di Linguaggi di programmazione (04138) del Corso di Laurea in
